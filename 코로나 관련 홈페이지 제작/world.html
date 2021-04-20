@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20131299 윤 준</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <style>
+        section{
+            width:100%;
+            text-align: left;
+        }
+        aside{
+            width:0%;
+        }
+        table{
+            width:100%;
+            border-collapse: collapse;
+            text-align: center;
+            font-family: Verdana, Geneva, Arial, sans-serif;
+            color: rgb(59, 59, 59);
+            font-size:13px;
+        }
+
+        #innerwrap{
+            width:80%;
+            display: inline-block;
+        }
+
+        td:first-child{
+            font-weight:bold;
+        }
+        #fn{
+            font-weight: bold;
+        }
+        td,th{
+            border:1px solid rgb(221,221,221);
+        }
+        td{
+            padding:10px
+        }
+        th{
+            border-top:1px solid rgb(109,136,183);
+        }
+        tr>th{
+            color:rgb(34, 33, 104);
+            background-color: rgb(250, 252, 255);
+        }
+        li{
+            list-style: "- ";
+         
+        }
+        a, a:visited{
+            color:navy;
+        }
+        #ch{
+            text-align: left;
+            margin-left:20%;
+        }
+    </style>
+</head>
+<body onload="printClock()">
+    <div id = "top-line"></div>
+    <div class="wrap">
+        <div id="clock"></div>
+        <header><h1>About COVID-19</h1></header>
+        <nav><ul>
+            <li><a href="index.html"><B>Home</B></a></li>
+            <li>|</li>
+            <li><a href="covid_19.html"><b>COVID-19</B></a></li>
+            <li>|</li>
+            <li><a id="nav_selected" href="world.html"><b>World Situation</B></a></li>
+            <li>|</li>
+            <li><a href="korea.html"><b>Korea Situation</B></a></li>
+            <li>|</li>
+            <a href="media.html"><b>Media</B></a>
+            </ul>
+        </nav><hr>
+        <div id="innerwrap">
+        <section>
+            <h2 align=center>국외 발생 현황</h2>
+            <hr style="border: 1px solid black;">
+        
+     
+            <h2 style="color:rgb(64,89,133); text-align: left;">국외 발생 현황</h2>
+            <div style="text-align: left;">코로나바이러스감염증-19 환자 총 7,945,736명 (사망 435,125 명) ( 06.16. 09시 기준)</div>
+        
+            <br>
+  
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">지역 및 국가</th>
+                        <th>환자발생 수 (사망)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th rowspan="30">아시아</th>
+                    <td id="fn">중국</td>
+                    <td>83,221명 (사망 4,634)</td>
+                </tr>
+                <tr>
+                    <td>홍콩</td>
+                    <td>1,112명 (사망 4)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>대만</td>
+                    <td>445명 (사망 7)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>마카오</td>
+                    <td>45명
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>일본</td>
+                    <td>17,587명 (사망 927)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>싱가포르</td>
+                    <td>40,818명 (사망 26)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>태국</td>
+                    <td>3,135명 (사망 58)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>말레이시아</td>
+                    <td>8,453명 (사망 121)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>베트남</td>
+                    <td>334명
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>인도</td>
+                    <td>332,424명 (사망 9,520)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>필리핀</td>
+                    <td>25,930명 (사망 1,088)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>캄보디아</td>
+                    <td>128명
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>네팔</td>
+                    <td>5,760명 (사망 19)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>러시아</td>
+                    <td>537,210명 (사망 7,091)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>스리랑카</td>
+                    <td>1,889명 (사망 11)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>아프가니스탄</td>
+                    <td>25,527명 (사망 478)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>파키스탄</td>
+                    <td>144,478명 (사망 2,729)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>인도네시아</td>
+                    <td>38,277명 (사망 2,134)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>부탄</td>
+                    <td>66명
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>몰디브</td>
+                    <td>2,035명 (사망 8)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>방글라데시</td>
+                    <td>87,520명 (사망 1,171)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>브루나이</td>
+                    <td>141명 (사망 2)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>몽골</td>
+                    <td>197명
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>카자흐스탄</td>
+                    <td>14,809명 (사망 77)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>우즈베키스탄</td>
+                    <td>5,103명 (사망 19)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>키르기스스탄</td>
+                    <td>2,372명 (사망 27)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>동티모르</td>
+                    <td>24명
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>미얀마</td>
+                    <td>262명 (사망 6)    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>라오스</td>
+                    <td>19명
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>타지키스탄</td>
+                    <td>5,035명 (사망 50)    
+                    </td>
+                    </tr>
+                <!--지역-->
+                <tr>
+                    <th rowspan="18">중동</th>
+                    <td id="fn">이란</td>
+                    <td>189,876명 (사망 8,950)</td>
+                </tr>
+                <tr><td>바레인</td>
+                    <td>18,544명
+														 (사망 46)
+                    </tr>
+                    <tr><td>이집트</td>
+                        <td>44,598명 (사망 1,575)
+                    </tr>
+                    <tr><td>이라크</td>
+                        <td>21,315명 (사망 652)
+                    </tr>
+                    <tr><td>요르단</td>
+                        <td>979명 (사망 9)
+                    </tr>
+                    <tr><td>쿠웨이트</td>
+                        <td>36,431명 (사망 298)
+                    </tr>
+                    <tr><td>레바논</td>
+                        <td>1,464명 (사망 32)
+                    </tr>
+                    <tr><td>리비아</td>
+                        <td>454명 (사망 10)
+                    </tr>
+                    <tr><td>모로코</td>
+                        <td>8,838명 (사망 212)
+                    </tr>
+                    <tr><td>오만</td>
+                        <td>24,524명 (사망 108)
+                    </tr>
+                    <tr><td>카타르</td>
+                        <td>80,876명 (사망 76)
+                    </tr>
+                    <tr><td>사우디아라비아</td>
+                        <td>132,048명 (사망 1,011)
+                    </tr>
+                    <tr><td>시리아</td>
+                        <td>177명 (사망 6)
+                    </tr>
+                    <tr><td>튀니지</td>
+                        <td>1,110명 (사망 49)
+                    </tr>
+                    <tr><td>이스라엘</td>
+                        <td>19,121명 (사망 302)
+                    </tr>
+                    <tr><td>아랍에미리트</td>
+                        <td>42,294명 (사망 289)
+                    </tr>
+                    <tr><td>알제리</td>
+                        <td>10,919명 (사망 767)
+                    </tr>
+                    <tr><td>예멘</td>
+                        <td>732명 (사망 165)
+                    </tr>
+                <!--지역-->
+                <tr>
+                    <th rowspan="35">미주</th>
+                    <td id="fn">미국</td>
+                    <td>2,110,791명 (사망 116,090)
+                </td>
+                </tr>
+            
+                <tr><td>캐나다</td>
+                    <td>99,147명
+					(사망 8,175)
+                    </tr>
+                    <tr><td>멕시코</td>
+                        <td>150,264명 (사망 17,580)
+                    </tr>
+                    <tr><td>파나마</td>
+                        <td>20,059명 (사망 429)
+                    </tr>
+                    <tr><td>온두라스</td>
+                        <td>8,455명 (사망 310)
+                    </tr>
+                    <tr><td>과테말라</td>
+                        <td>9,491명 (사망 367)
+                    </tr>
+                    <tr><td>코스타리카</td>
+                        <td>1,662명 (사망 12)
+                    </tr>
+                    <tr><td>엘살바도르</td>
+                        <td>3,720명 (사망 72)
+                    </tr>
+                    <tr><td>벨리즈</td>
+                        <td>21명 (사망 2)
+                    </tr>
+                    <tr><td>니카라구아</td>
+                        <td>1,655명 (사망 55)
+                    </tr>
+                    <tr><td>도미니카공화국</td>
+                        <td>22,962명 (사망 592)
+                    </tr>
+                    <tr><td>쿠바</td>
+                        <td>2,248명 (사망 84)
+                    </tr>
+                    <tr><td>자메이카</td>
+                        <td>615명 (사망 10)
+                    </tr>
+                    <tr><td>트리니다드토바고</td>
+                        <td>117명 (사망 8)
+                    </tr>
+                    <tr><td>아이티</td>
+                        <td>4,165명 (사망 70)
+                    </tr>
+                    <tr><td>바하마</td>
+                        <td>103명 (사망 11)
+                    </tr>
+                    <tr><td>바베이도스</td>
+                        <td>96명 (사망 7)
+                    </tr>
+                    <tr><td>앤티가바부다</td>
+                        <td>26명 (사망 3)
+                    </tr>
+                    <tr><td>그레나다</td>
+                        <td>23명
+                    </tr>
+                    <tr><td>세인트루시아</td>
+                        <td>19명
+                    </tr>
+                    <tr><td>세인트빈센트그레나딘</td>
+                        <td>27명
+                    </tr>
+                    <tr><td>도미니카연방</td>
+                        <td>18명
+                    </tr>
+                    <tr><td>세인트키츠네비스</td>
+                        <td>15명
+                    </tr>
+                    <tr><td>브라질</td>
+                        <td>888,271명 (사망 43,959)
+                    </tr>
+                    <tr><td>페루</td>
+                        <td>232,992명 (사망 6,860)
+                    </tr>
+                    <tr><td>에콰도르</td>
+                        <td>46,751명 (사망 3,896)
+                    </tr>
+                    <tr><td>칠레</td>
+                        <td>179,436명 (사망 3,362)
+                    </tr>
+                    <tr><td>콜롬비아</td>
+                        <td>48,746명 (사망 1,592)
+                    </tr>
+                    <tr><td>아르헨티나</td>
+                        <td>30,295명 (사망 819)
+                    </tr>
+                    <tr><td>볼리비아</td>
+                        <td>17,842명 (사망 585)
+                    </tr>
+                    <tr><td>우루과이</td>
+                        <td>847명 (사망 23)
+                    </tr>
+                    <tr><td>파라과이</td>
+                        <td>1,289명 (사망 11)
+                    </tr>
+                    <tr><td>베네수엘라</td>
+                        <td>2,904명 (사망 24)
+                    </tr>
+                    <tr><td>가이아나</td>
+                        <td>159명 (사망 12)
+                    </tr>
+                    <tr><td>수리남</td>
+                        <td>187명 (사망 3)
+                    </tr>
+                <!--지역-->
+                <tr>
+                    <th rowspan="48">유럽</th>
+                    <td id="fn">이탈리아</td>
+                    <td>237,290명 (사망 34,371)
+                </td>
+                </tr>
+            
+                <tr><td>독일</td>
+                    <td>187,682명
+				    (사망 8,807)
+                    </tr>
+                    <tr><td>프랑스</td>
+                        <td>157,372명 (사망 29,436)
+                    </tr>
+                    <tr><td>영국</td>
+                        <td>296,857명 (사망 41,736)
+                    </tr>
+                    <tr><td>스페인</td>
+                        <td>244,109명 (사망 27,136)
+                    </tr>
+                    <tr><td>오스트리아</td>
+                        <td>17,094명 (사망 678)
+                    </tr>
+                    <tr><td>크로아티아</td>
+                        <td>2,252명 (사망 107)
+                    </tr>
+                    <tr><td>핀란드</td>
+                        <td>7,104명 (사망 326)
+                    </tr>
+                    <tr><td>스웨덴</td>
+                        <td>52,383명 (사망 4,891)
+                    </tr>
+                    <tr><td>스위스</td>
+                        <td>31,131명 (사망 1,677)
+                    </tr>
+                    <tr><td>벨기에</td>
+                        <td>60,100명 (사망 9,661)
+                    </tr>
+                    <tr><td>덴마크</td>
+                        <td>12,193명 (사망 597)
+                    </tr>
+                    <tr><td>에스토니아</td>
+                        <td>1,973명 (사망 69)
+                    </tr>
+                    <tr><td>조지아</td>
+                        <td>879명 (사망 14)
+                    </tr>
+                    <tr><td>그리스</td>
+                        <td>3,121명 (사망 183)
+                    </tr>
+                    <tr><td>북마케도니아</td>
+                        <td>4,057명 (사망 188)
+                    </tr>
+                    <tr><td>노르웨이</td>
+                        <td>8,606명 (사망 242)
+                    </tr>
+                    <tr><td>루마니아</td>
+                        <td>22,165명 (사망 1,427)
+                    </tr>
+                    <tr><td>네덜란드</td>
+                        <td>48,948명 (사망 6,065)
+                    </tr>
+                    <tr><td>벨라루스</td>
+                        <td>53,973명 (사망 308)
+                    </tr>
+                    <tr><td>리투아니아</td>
+                        <td>1,768명 (사망 75)
+                    </tr>
+                    <tr><td>산마리노</td>
+                        <td>695명 (사망 42)
+                    </tr>
+                    <tr><td>아제르바이잔</td>
+                        <td>9,957명 (사망 119)
+                    </tr>
+                    <tr><td>아이슬란드</td>
+                        <td>1,810명 (사망 10)
+                    </tr>
+                    <tr><td>모나코</td>
+                        <td>99명 (사망 1)
+                    </tr>
+                    <tr><td>룩셈부르크</td>
+                        <td>4,070명 (사망 110)
+                    </tr>
+                    <tr><td>아르메니아</td>
+                        <td>17,064명 (사망 285)
+                    </tr>
+                    <tr><td>아일랜드</td>
+                        <td>25,321명 (사망 1,706)
+                    </tr>
+                    <tr><td>체코</td>
+                        <td>10,024명 (사망 329)
+                    </tr>
+                    <tr><td>포르투갈</td>
+                        <td>37,036명 (사망 1,520)
+                    </tr>
+                    <tr><td>라트비아</td>
+                        <td>1,097명 (사망 28)
+                    </tr>
+                    <tr><td>안도라</td>
+                        <td>853명 (사망 51)
+                    </tr>
+                    <tr><td>폴란드</td>
+                        <td>29,788명 (사망 1,256)
+                    </tr>
+                    <tr><td>우크라이나</td>
+                        <td>31,810명 (사망 901)
+                    </tr>
+                    <tr><td>헝가리</td>
+                        <td>4,076명 (사망 563)
+                    </tr>
+                    <tr><td>보스니아 헤르체고비나</td>
+                        <td>3,001명 (사망 163)
+                    </tr>
+                    <tr><td>슬로베니아</td>
+                        <td>1,495명 (사망 109)
+                    </tr>
+                    <tr><td>리히텐슈타인</td>
+                        <td>83명 (사망 1)
+                    </tr>
+                    <tr><td>세르비아</td>
+                        <td>12,310명 (사망 254)
+                    </tr>
+                    <tr><td>슬로바키아</td>
+                        <td>1,548명 (사망 28)
+                    </tr>
+                    <tr><td>불가리아</td>
+                        <td>3,290명 (사망 174)
+                    </tr>
+                    <tr><td>몰타</td>
+                        <td>646명 (사망 9)
+                    </tr>
+                    <tr><td>몰도바</td>
+                        <td>11,740명 (사망 406)
+                    </tr>
+                    <tr><td>알바니아</td>
+                        <td>1,590명 (사망 36)
+                    </tr>
+                    <tr><td>사이프러스</td>
+                        <td>983명 (사망 18)
+                    </tr>
+                    <tr><td>터키</td>
+                        <td>179,831명 (사망 4,825)
+                    </tr>
+                    <tr><td>몬테네그로</td>
+                        <td>325명 (사망 9)
+                    </tr>
+                    <tr><td>코소보</td>
+                        <td>1,443명 (사망 23)
+                    </tr>
+                <!--지역-->
+                <tr>
+                    <th rowspan="4">오세아니아</th>
+                    <td id="fn">호주</td>
+                    <td>7,320명 (사망 102)
+                </td>
+                </tr>
+            
+                <tr><td>뉴질랜드</td>
+                    <td>1,154명 (사망 22)
+                </td></tr>
+                <tr><td>피지</td>
+                    <td>18명 </td></tr>
+                <tr><td>파푸아뉴기니</td>
+                    <td>8명 </td></tr>      
+                <!--지역-->
+                <tr>
+                    <th rowspan="49">아프리카</th>
+                    <td id="fn">나이지리아</td>
+                    <td>16,085명 (사망 420)
+                </td>
+                </tr>
+            
+                <tr><td>세네갈</td>
+                    <td>5,090명
+					(사망 60)
+                    </tr>
+                    <tr><td>카메룬</td>
+                        <td>9,572명 (사망 275)
+                    </tr>
+                    <tr><td>남아프리카공화국</td>
+                        <td>70,038명 (사망 1,480)
+                    </tr>
+                    <tr><td>토고</td>
+                        <td>530명 (사망 13)
+                    </tr>
+                    <tr><td>부르키나파소</td>
+                        <td>894명 (사망 53)
+                    </tr>
+                    <tr><td>DR콩고</td>
+                        <td>4,777명 (사망 106)
+                    </tr>
+                    <tr><td>코트디부아르</td>
+                        <td>5,084명 (사망 45)
+                    </tr>
+                    <tr><td>수단</td>
+                        <td>7,220명 (사망 459)
+                    </tr>
+                    <tr><td>에티오피아</td>
+                        <td>3,345명 (사망 57)
+                    </tr>
+                    <tr><td>가봉</td>
+                        <td>3,463명 (사망 23)
+                    </tr>
+                    <tr><td>가나</td>
+                        <td>11,422명 (사망 51)
+                    </tr>
+                    <tr><td>기니</td>
+                        <td>4,534명 (사망 25)
+                    </tr>
+                    <tr><td>케냐</td>
+                        <td>3,594명 (사망 103)
+                    </tr>
+                    <tr><td>나미비아</td>
+                        <td>32명
+                    </tr>
+                    <tr><td>중앙아프리카공화국</td>
+                        <td>2,222명 (사망 7)
+                    </tr>
+                    <tr><td>콩고</td>
+                        <td>779명 (사망 25)
+                    </tr>
+                    <tr><td>적도기니</td>
+                        <td>1,043명 (사망 12)
+                    </tr>
+                    <tr><td>에스와티니</td>
+                        <td>490명 (사망 4)
+                    </tr>
+                    <tr><td>모리타니아</td>
+                        <td>1,783명 (사망 87)
+                    </tr>
+                    <tr><td>르완다</td>
+                        <td>582명 (사망 2)
+                    </tr>
+                    <tr><td>세이쉘</td>
+                        <td>11명
+                    </tr>
+                    <tr><td>베냉</td>
+                        <td>470명 (사망 7)
+                    </tr>
+                    <tr><td>라이베리아</td>
+                        <td>458명 (사망 32)
+                    </tr>
+                    <tr><td>탄자니아</td>
+                        <td>509명 (사망 21)
+                    </tr>
+                    <tr><td>지부티</td>
+                        <td>4,501명 (사망 43)
+                    </tr>
+                    <tr><td>감비아</td>
+                        <td>28명 (사망 1)
+                    </tr>
+                    <tr><td>잠비아</td>
+                        <td>1,358명 (사망 11)
+                    </tr>
+                    <tr><td>모리셔스</td>
+                        <td>337명 (사망 10)
+                    </tr>
+                    <tr><td>차드</td>
+                        <td>850명 (사망 73)
+                    </tr>
+                    <tr><td>니제르</td>
+                        <td>980명 (사망 66)
+                    </tr>
+                    <tr><td>카보베르데</td>
+                        <td>750명 (사망 6)
+                    </tr>
+                    <tr><td>짐바브웨</td>
+                        <td>383명 (사망 4)
+                    </tr>
+                    <tr><td>소말리아</td>
+                        <td>2,642명 (사망 88)
+                    </tr>
+                    <tr><td>마다가스카르</td>
+                        <td>1,272명 (사망 10)
+                    </tr>
+                    <tr><td>앙골라</td>
+                        <td>140명 (사망 6)
+                    </tr>
+                    <tr><td>에리트레아</td>
+                        <td>96명
+                    </tr>
+                    <tr><td>우간다</td>
+                        <td>823명
+                    </tr>
+                    <tr><td>모잠비크</td>
+                        <td>583명 (사망 2)
+                    </tr>
+                    <tr><td>기니비사우</td>
+                        <td>1,460명 (사망 15)
+                    </tr>
+                    <tr><td>말리</td>
+                        <td>1,809명 (사망 104)
+                    </tr>
+                    <tr><td>보츠와나</td>
+                        <td>60명 (사망 1)
+                    </tr>
+                    <tr><td>브룬디</td>
+                        <td>94명 (사망 1)
+                    </tr>
+                    <tr><td>시에라리온</td>
+                        <td>1,169명 (사망 51)
+                    </tr>
+                    <tr><td>말라위</td>
+                        <td>547명 (사망 6)
+                    </tr>
+                    <tr><td>남수단</td>
+                        <td>1,693명 (사망 27)
+                    </tr>
+                    <tr><td>상투메프린시페</td>
+                        <td>388명 (사망 10)
+                    </tr>
+                    <tr><td>코모로</td>
+                        <td>176명 (사망 2)
+                    </tr>
+                    <tr><td>레소토</td>
+                        <td>4명
+                    </tr>   
+                <!--지역-->
+                <tr>
+                    <th rowspan="1">기타</th>
+                    <td id="fn">기타지역 영토</td>
+                    <td>13,950명 (사망 340)
+                </td>
+                </tr>
+                <tr >
+                    <th id="lasttr"colspan="2">합계</th>
+                    <td id="fn">7,945,736명<br>(사망 435,125)</td>
+                </tr>
+            </tbody>
+
+            </table>
+            <br>
+            <br>
+        </section>
+        
+        <hr>
+        <div align=right>
+            <input type="button" value="프린트" onclick="window.print()">
+        </div>
+        
+            자료 출처
+            <br><br>
+            <ul id="ch">
+                <li>중국 : <a href="http://en.nhc.gov.cn/2020-03/06/c_77327.html" target="_blank">국가위생건강위원회 홈페이지</a></li>
+                <li>한국 : 중앙방역대책본부 정례브리핑 보도자료, <a href="http://ncov.mohw.go.kr/" target="_blank">질병관리본부</a></li>
+                <li>이탈리아 : <a href="http://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&id=5351&area=nuovoCoronavirus&menu=vuoto" target="_blank">보건부 홈페이지</a></li>
+                <li>일본 : <a href="https://www.mhlw.go.jp/stf/houdou/houdou_list_202005.html" target="_blank">후생노동성 보도자료</a></li>
+                <li>영국 : <a href="https://www.gov.uk/guidance/coronavirus-covid-19-information-for-the-public#number-of-cases" target="_blank">정부사이트</a></li>
+                <li>이란 · 미국 : <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6" target="_blank">Coronavirus COVID-19 Global Cases by Johns Hopkins CSSE</a></li>
+            </ul>
+        </div>
+        <aside></aside>
+        
+    </div>
+    <footer>© 2020 All rights Reserved | Designed by <span id="right">Jun</span></footer>
+    <script>
+        /* 시계 기능 */
+    function printClock() {
+    
+    var clock = document.getElementById("clock");            
+    var currentDate = new Date();                                     
+    var calendar = currentDate.getFullYear() + "-" + (currentDate.getMonth()+1) + "-" + currentDate.getDate() 
+    var amPm = 'AM';
+    var currentHours = addZeros(currentDate.getHours(),2); 
+    var currentMinute = addZeros(currentDate.getMinutes() ,2);
+    var currentSeconds =  addZeros(currentDate.getSeconds(),2);
+    
+    if(currentHours >= 12){
+    	amPm = 'PM';
+    	currentHours = addZeros(currentHours - 12,2);
+    }
+
+    if(currentSeconds >= 50){
+       currentSeconds = '<span style="color:#de1951;">'+currentSeconds+'</span>'
+    }
+    clock.innerHTML = currentHours+":"+currentMinute+":"+currentSeconds + " "+ amPm+"</span>"; //날짜를 출력해 줌
+    
+    setTimeout("printClock()",1000);         
+}
+
+function addZeros(num, digit) {
+	  var zero = '';
+	  num = num.toString();
+	  if (num.length < digit) {
+	    for (i = 0; i < digit - num.length; i++) {
+	      zero += '0';
+	    }
+	  }
+	  return zero + num;
+}
+
+    </script>
+</body>
+</html>
